@@ -1,0 +1,22 @@
+{
+  "name": "pc-builder",
+  "version": "1.0.0",
+  "description": "MEAN-based website that checks PC part compatibility and pricing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wscottcarl/pc-builder.git"
+  },
+  "author": "Scott Carl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wscottcarl/pc-builder/issues"
+  },
+  "homepage": "https://github.com/wscottcarl/pc-builder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
