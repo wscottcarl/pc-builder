@@ -6,9 +6,7 @@ const port = 3000
 
 var config = require('./config.js');
 var dbConfig = config['database'];
-console.log(dbConfig);
 var mongooseUri = 'mongodb://' + dbConfig.host +':'+ dbConfig.port + '/' + dbConfig.dbName;
-console.log(typeof(dbConfig['dbName']));
 var mongooseOptions = {
 	"user" : dbConfig['user'],
 	"pass": dbConfig['pass'],
